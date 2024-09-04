@@ -1,0 +1,84 @@
+/* Container styling */
+.homeContainer {
+  background-color: #f9f9f9; /* Light grey for a softer look */
+  padding: 60px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.homeContainer:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Section styling */
+.contentSection {
+  text-align: left;
+  margin-bottom: 50px;
+  transition: transform 0.3s ease;
+}
+
+.contentSection:hover {
+  transform: translateY(-5px);
+}
+
+/* Title styling */
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #4B0082; /* Deep Purple */
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: #3a0ca3; /* Lighter Purple */
+}
+
+/* Content styling */
+.content {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+  color: #0e7490; /* Teal */
+  line-height: 1.8;
+}
+
+/* Image styling */
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.image:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* Loading state */
+.loading {
+  font-size: 1.5rem;
+  color: #4B0082;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .homeContainer {
+    padding: 40px 20px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .content {
+    font-size: 1.1rem;
+  }
+}

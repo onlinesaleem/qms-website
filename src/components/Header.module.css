@@ -1,0 +1,56 @@
+/* Header styling */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoImage {
+  height: 40px;
+  width: auto;
+}
+
+/* Navigation styling */
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.navLink {
+  color: var(--primary-color); /* Deep Purple font color */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.navLink:hover {
+  color: var(--secondary-color); /* Change color on hover */
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Add active link styling */
+.active {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}

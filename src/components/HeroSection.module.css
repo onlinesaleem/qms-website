@@ -1,0 +1,77 @@
+.heroSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.heroContent {
+    max-width: 900px;
+    padding: 0 30px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.heroTitle {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #f4f4f9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroSubtitle {
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #dcdcdc;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.ctaButton {
+    background-color: #1e90ff; /* Dodger Blue */
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #1c7ed6; /* Slightly darker blue */
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        height: 550px;
+    }
+
+    .heroTitle {
+        font-size: 3rem;
+    }
+
+    .heroSubtitle {
+        font-size: 1.4rem;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

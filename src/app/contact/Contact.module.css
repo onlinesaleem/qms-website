@@ -1,0 +1,127 @@
+.pageWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #3a0ca3;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.contactInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contactDetails {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contactDetails h2 {
+  font-size: 2rem;
+  color: #0e7490;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contactDetails p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.mapContainer {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.formContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #3a0ca3;
+  outline: none;
+}
+
+.textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.successMessage {
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #3a0ca3;
+}
+
+.footer h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  color: #555;
+}
